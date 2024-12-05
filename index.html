@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Étudiant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+        .project {
+            margin-bottom: 15px;
+        }
+        .project h3 {
+            margin: 0;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill {
+            background-color: #007BFF;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mon Portfolio</h1>
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#projects">Projets</a>
+        <a href="#skills">Compétences</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>À propos de moi</h2>
+    <p>Bonjour ! Je suis un étudiant en informatique passionné par le développement web, les systèmes informatiques et l'intelligence artificielle. J'aime résoudre des problèmes et apprendre de nouvelles technologies.</p>
+</section>
+
+<section id="projects">
+    <h2>Mes projets</h2>
+    <div class="project">
+        <h3>Projet 1: Site de gestion de bibliothèque</h3>
+        <p>Un projet permettant de gérer les emprunts et les retours de livres dans une bibliothèque, réalisé avec HTML, CSS, et Python Flask.</p>
+    </div>
+    <div class="project">
+        <h3>Projet 2: Jeu de puzzle</h3>
+        <p>Un petit jeu réalisé en JavaScript où l'utilisateur doit résoudre des puzzles logiques.</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Mes compétences</h2>
+    <div class="skills">
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">Python</span>
+        <span class="skill">C++</span>
+        <span class="skill">MySQL</span>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contactez-moi</h2>
+    <p>Email: <a href="mailto:etudiant@example.com">etudiant@example.com</a></p>
+    <p>Téléphone: +33 6 12 34 56 78</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Mon Portfolio</p>
+</footer>
+
+</body>
+</html>
